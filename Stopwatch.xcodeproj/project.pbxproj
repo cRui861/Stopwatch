@@ -14,6 +14,7 @@
 		35F671641E5FBAFD0077265F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F671621E5FBAFD0077265F /* LaunchScreen.storyboard */; };
 		35F6716F1E5FBAFD0077265F /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6716E1E5FBAFD0077265F /* StopwatchTests.swift */; };
 		35F6717A1E5FBAFD0077265F /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F671791E5FBAFD0077265F /* StopwatchUITests.swift */; };
+		35F671881E5FBDD80077265F /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F671871E5FBDD80077265F /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		35F671751E5FBAFD0077265F /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F671791E5FBAFD0077265F /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		35F6717B1E5FBAFD0077265F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F671871E5FBDD80077265F /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				35F671591E5FBAFD0077265F /* AppDelegate.swift */,
+				35F671871E5FBDD80077265F /* Stopwatch.swift */,
 				35F6715B1E5FBAFD0077265F /* ViewController.swift */,
 				35F6715D1E5FBAFD0077265F /* Main.storyboard */,
 				35F671601E5FBAFD0077265F /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F6715C1E5FBAFD0077265F /* ViewController.swift in Sources */,
+				35F671881E5FBDD80077265F /* Stopwatch.swift in Sources */,
 				35F6715A1E5FBAFD0077265F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
